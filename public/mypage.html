@@ -4,8 +4,30 @@
   <head>
     <meta charset="utf-8">
     <title>hello</title>
+    <link rel="stylesheet" href="./mycss.css">
   </head>
-  <body>
 
+  <body>
+    <form class="myForm" action="/usr" method="post">
+
+      <label for="uname">First Name:</label><br>
+        <input type="text" name="uname" value="" placeholder="First Name"> <br>
+
+      <label for="lname">Last Name:</label><br>
+        <input type="text" name="lname" value="" placeholder="Last Name"> <br>
+
+      <label for="uid">ID:</label><br>
+        <input type="text" name="uid" value="" placeholder="ID"><br>
+
+      <label for="uage">Your Age:</label><br>
+       <input type="text" name="uage" value="" placeholder="AGE"><br>
+
+      <label for="uheight">Height:</label><br>
+        <input type="text" name="uheight" value="" placeholder="Height"><br> <br>
+
+      <input type="submit" name="sub" value="SEND TO SERVER">
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
+    <script src="myjava.js" charset="utf-8"></script>
   </body>
 </html>

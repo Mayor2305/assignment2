@@ -12,8 +12,8 @@
 <h2>Database Results</h2>
 
 <ul>
-    <% results.forEach(function(r) { %>
-        <li><%= r.id %> - <%= r.name %></li>
+    <% rows.forEach(function(r) { %>
+        <li>Id:<%= r.id %>, Name: <%= r.name %>, Last Name: <%= r.last_name %>, Age: <%= r.age %>,Height: <%= r.height %></li>
     <% }); %>
 </ul>
 

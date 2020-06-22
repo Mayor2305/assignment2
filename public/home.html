@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CMPT 276 ASSIGNMENT 2</title>
+  </head>
+  <h1>CMPT 225 ASSIGNMENT 2</h1>
+  <h2>Jyotiraditya Mayor</h2>
+  <body>
+      <button type="button" onclick="document.location='/mypage.html'" name="button">ADD USER</button> <br><br>
+
+
+
+        <form class="ID_CHECK" action="/usr/:id">
+          <label for="uid">ENTER THE ID YOU WANT TO CHECK ON THE DATABASE:</label><br>
+            <input type="number" name="uid" value="" placeholder="ID"><br><br>
+            <input type="submit" name="sub" value="CHECK USER"><br><br>
+          </form>
+          <br><br>
+
+          <form class="Delete" action="/delete">
+            <label for="did">ENTER THE ID YOU WANT TO DELETE FROM THE DATABASE:</label><br><br>
+              <input type="number" name="did" value="" placeholder="ID"><br><br>
+              <input type="submit" name="sub" value="delete USER"><br><br>
+            </form>
+            <br><br>
+            <form class="database" action="/database"><br><br>
+            <input type="submit"  name="sub" value="show database"><br><br>
+            </form>
+
+  </body>
+</html>
